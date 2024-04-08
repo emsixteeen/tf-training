@@ -20,7 +20,7 @@ variable "images" {
     },
     lb = {
       name = "lb",
-      repo = "emsixteeen",
+      repo = "emsixteeen.com",
       image = "tf-training-lb",
       image_version = "0.1",
     },

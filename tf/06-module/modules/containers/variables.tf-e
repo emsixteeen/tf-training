@@ -1,6 +1,6 @@
 variable "repo" {
   type = string
-  default = "emsixteeen"
+  default = "emsixteeen.com"
   nullable = false
 }
 
