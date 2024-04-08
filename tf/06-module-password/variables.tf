@@ -17,12 +17,14 @@ variable "images" {
       name = "db",
       image = "tf-training-mysql",
       image_version = "0.1",
+      env = [],
     },
     lb = {
       name = "lb",
       repo = "emsixteeen",
       image = "tf-training-lb",
       image_version = "0.1",
+      env = [],
     },
   }
 }
