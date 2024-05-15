@@ -10,17 +10,17 @@ terraform {
 provider "docker" {}
 
 resource "docker_image" "lb" {
-  name         = "emsixteeen/tf-training-lb:0.1"
+  name         = ""
   keep_locally = false
 }
 
 resource "docker_image" "app" {
-  name         = "emsixteeen/tf-training-app:0.1"
+  name         = ""
   keep_locally = false
 }
 
 resource "docker_image" "db" {
-  name         = "emsixteeen/tf-training-mysql:0.1"
+  name         = ""
   keep_locally = false
 }
 

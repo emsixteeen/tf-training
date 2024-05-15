@@ -1,16 +1,16 @@
 variable "image_app" {
   type = string
-  default = "emsixteeen/tf-training-app:0.1"
+  default = ""
 }
 
 variable "image_db" {
   type = string
-  default = "emsixteeen/tf-training-mysql:0.1"
+  default = ""
 }
 
 variable "image_lb" {
   type = string
-  default = "emsixteeen/tf-training-lb:0.1"
+  default = ""
 }
 
 variable "db_host" {
