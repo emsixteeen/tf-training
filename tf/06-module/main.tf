@@ -1,6 +1,6 @@
 module "containers" {
-  source = "./modules/containers"
-  for_each = var.images
+  source = # Import the module from ./modules/containers
+  for_each = # Fill in the variable "images" 
 
   name = "${each.value.name}"
   image = "${each.value.image}"
