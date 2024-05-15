@@ -1,9 +1,6 @@
 variable "images" {
   type = list 
   default = [
-    "emsixteeen/tf-training-app:0.1",
-    "emsixteeen/tf-training-mysql:0.1",
-    "emsixteeen/tf-training-lb:0.1",
   ]
 }
 
